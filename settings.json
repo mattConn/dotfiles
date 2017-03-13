@@ -1,5 +1,6 @@
 {
     "git.confirmSync": false,
     "window.zoomLevel": 0,
-    "editor.minimap.enabled": true
+    "editor.minimap.enabled": true,
+    "workbench.iconTheme": "vscode-icons"
 }
