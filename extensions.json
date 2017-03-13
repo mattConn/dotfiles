@@ -1,0 +1,9 @@
+{
+    "extensions" : [
+        "Compulim.vscode-clock",
+        "hnw.vscode-auto-open-markdown-preview",
+        "msjsdiag.debugger-for-chrome",
+        "robertohuertasm.vscode-icons",
+        "wmaurer.html2jade"
+        ]
+}
