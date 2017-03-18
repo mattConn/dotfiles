@@ -5,6 +5,7 @@
         "msjsdiag.debugger-for-chrome",
         "robertohuertasm.vscode-icons",
         "sidthesloth.html5-boilerplate",
-        "wmaurer.html2jade"
+        "wmaurer.html2jade",
+	"streetsidesoftware.code-spell-checker"
         ]
 }
