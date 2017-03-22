@@ -19,4 +19,5 @@ gnome-terminal \
 lm-sensors \
 htop \
 chromium-browser \
-octave
+octave \
+inotify-tools
