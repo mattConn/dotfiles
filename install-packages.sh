@@ -22,3 +22,4 @@ chromium-browser \
 octave \
 inotify-tools \
 fceux
+auto_add_script_test \
