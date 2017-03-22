@@ -20,4 +20,5 @@ lm-sensors \
 htop \
 chromium-browser \
 octave \
-inotify-tools
+inotify-tools \
+fceux
