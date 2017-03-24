@@ -24,3 +24,4 @@ chromium-browser \
 octave \
 inotify-tools \
 fceux \
+screenfetch \
