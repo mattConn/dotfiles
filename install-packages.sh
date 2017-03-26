@@ -25,3 +25,4 @@ octave \
 inotify-tools \
 fceux \
 screenfetch \
+inotify-tools \

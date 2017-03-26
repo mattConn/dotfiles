@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd ~/Documents/ubuntu-environment-setup;
+cd ~/Documents/webdev/ubuntu-environment-setup;
 read input;
 echo  $input \\ >> install-packages.sh;
 git add .;
