@@ -26,3 +26,5 @@ inotify-tools \
 fceux \
 screenfetch \
 inotify-tools \
+krita \
+vlc \
