@@ -28,3 +28,5 @@ screenfetch \
 inotify-tools \
 krita \
 vlc \
+xscreensaver \
+xscreensaver-gl \
