@@ -30,3 +30,4 @@ krita \
 vlc \
 xscreensaver \
 xscreensaver-gl \
+brightside \
