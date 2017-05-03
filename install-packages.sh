@@ -31,3 +31,4 @@ vlc \
 xscreensaver \
 xscreensaver-gl \
 brightside \
+ppa-purge \
