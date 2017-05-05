@@ -33,3 +33,4 @@ brightside \
 ppa-purge \
 git \
 xfce4 \
+gnome-shell-pomodoro \
