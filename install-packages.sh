@@ -2,7 +2,6 @@
 
 sudo apt-get update;
 sudo apt-get install \
-code \
 vim \
 php7.0 \
 nginx \
@@ -13,7 +12,7 @@ nodejs \
 npm \
 mupen64plus \
 minetest \
-wine \
+wine-stable \
 cowsay \
 figlet \
 xaos \
@@ -32,3 +31,5 @@ xscreensaver \
 xscreensaver-gl \
 brightside \
 ppa-purge \
+git \
+xfce4 \
