@@ -6,6 +6,7 @@
         "robertohuertasm.vscode-icons",
         "sidthesloth.html5-boilerplate",
         "wmaurer.html2jade",
-	"streetsidesoftware.code-spell-checker"
+	"streetsidesoftware.code-spell-checker",
+	"ms-vscode.cpptools"
         ]
 }
