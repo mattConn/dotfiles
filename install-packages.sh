@@ -34,6 +34,4 @@ ppa-purge \
 git \
 xfce4 \
 xfce4-goodies \
-gnome-shell-pomodoro \
 okular \
-terminator \
