@@ -37,3 +37,4 @@ xfce4-goodies \
 okular \
 crawl \
 crawl-tiles \
+ranger \
