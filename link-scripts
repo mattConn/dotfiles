@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+WORKINGDIR=`pwd`
+SYMLINK="sudo ln -s"
+EXECDIR="/usr/bin"
+
+for f in scripts/*
+do
+$SYMLINK $WORKINGDIR/$f $EXECDIR;
+done

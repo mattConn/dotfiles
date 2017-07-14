@@ -1,5 +1,6 @@
 # Matt's aliases
 alias crawl-ssh='ssh joshua@crawl.akrasiac.org'
+alias gd='cd ~/Documents/development/'
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
