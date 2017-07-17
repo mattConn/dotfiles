@@ -38,3 +38,5 @@ okular \
 crawl \
 crawl-tiles \
 ranger \
+exfat-fuse \
+exfat-utils \
