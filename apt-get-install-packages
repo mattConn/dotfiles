@@ -41,3 +41,5 @@ ranger \
 exfat-fuse \
 exfat-utils \
 keepass2 \
+powertop \
+gparted \
