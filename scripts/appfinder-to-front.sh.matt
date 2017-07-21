@@ -1,0 +1,2 @@
+# For using launching xfce appfinder in MATE on hotkey press (will bring window to front)
+xfce4-appfinder; wmctrl -a "Application Finder";

@@ -4,7 +4,8 @@ WORKINGDIR=`pwd`
 SYMLINK="sudo ln -s"
 EXECDIR="/usr/bin"
 
-for f in scripts/*
+cd scripts;
+for f in *
 do
-$SYMLINK $WORKINGDIR/$f $EXECDIR;
+$SYMLINK $WORKINGDIR/scripts/$f $EXECDIR/
 done

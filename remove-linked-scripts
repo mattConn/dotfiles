@@ -1,11 +1,3 @@
 #!/usr/bin/env bash
 
-WORKINGDIR=`pwd`
-REMOVE="sudo rm"
-EXECDIR="/usr/bin"
-
-cd scripts;
-for f in ./*
-do
-$REMOVE $EXECDIR/$f;
-done
+sudo rm /usr/bin/*.matt
