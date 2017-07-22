@@ -1,0 +1,19 @@
+# Debian stretch
+sudo apt-get update;
+sudo apt-get install \
+vim \
+php7.0 \
+nginx \
+mysql-server \
+php7.0-fpm \
+php7.0-mysql \
+nodejs \
+cowsay \
+figlet \
+lm-sensors \
+htop \
+inotify-tools \
+screenfetch \
+git \
+ranger \
+powertop \
