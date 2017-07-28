@@ -43,3 +43,5 @@ exfat-utils \
 keepass2 \
 powertop \
 gparted \
+kazam \
+shellcheck \
