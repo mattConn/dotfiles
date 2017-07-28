@@ -45,3 +45,4 @@ powertop \
 gparted \
 kazam \
 shellcheck \
+clang-3.9 \
