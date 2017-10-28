@@ -1,6 +1,10 @@
 {
-    "git.confirmSync": false,
+    "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": 0,
-    "editor.minimap.enabled": true,
-    "workbench.iconTheme": "vscode-icons"
+    "vim.disableAnnoyingNeovimMessage": true,
+    "C_Cpp.intelliSenseEngine": "Default",
+    "workbench.colorCustomizations" : {
+        "terminal.background" : "#000000",
+        "terminal.foreground" : "#ffffff"
+    }
 }
