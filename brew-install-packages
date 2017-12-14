@@ -1,0 +1,10 @@
+#!usr/bin/env bash
+
+brew update;
+brew install \
+htop \
+transmission \
+screenfetch \
+node \
+cowsay \
+cmatrix \
