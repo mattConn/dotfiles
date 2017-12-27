@@ -9,3 +9,4 @@ node \
 cowsay \
 cmatrix \
 caskroom/cask/libreoffice \
+wget \
