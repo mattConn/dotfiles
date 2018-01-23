@@ -4,4 +4,3 @@ npm install -g \
 gulp \
 http-server \
 html5-boilerplate \
-markdown-to-html \
