@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 
 sudo apt-get update;
 sudo apt-get install \
@@ -55,3 +55,4 @@ markdown \
 irssi \
 screen \
 flex \
+gnome-tweak-tool \
