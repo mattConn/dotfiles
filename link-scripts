@@ -2,7 +2,7 @@
 
 WORKINGDIR=`pwd`
 SYMLINK="sudo ln -s"
-EXECDIR="/usr/bin"
+EXECDIR="/usr/local/bin"
 
 cd scripts;
 for f in *
