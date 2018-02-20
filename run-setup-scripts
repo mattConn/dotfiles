@@ -5,7 +5,7 @@
 use v5.10;
 
 # underscore name of current operation
-sub Underscore {
+sub underscore {
 	for(my $j = 0; $j < $_[0]; $j++)
 	{
 		print "=";
@@ -19,9 +19,9 @@ while(<setup-scripts/*>)
 	my $uscoreLength = (length $msgPrefix) + (length $_) + 1;
 
 	# clearly name script running
-	Underscore($uscoreLength);
+	underscore($uscoreLength);
 	print "$msgPrefix $_\n";
-	Underscore($uscoreLength);
+	underscore($uscoreLength);
 	print "\n";
 	
 	# exec script
@@ -29,7 +29,7 @@ while(<setup-scripts/*>)
 
 	# mark finished execution (successful or not, in case of no stdout)
 	print "\n";
-	Underscore(length "Done.");
+	underscore(length "Done.");
 	print "Done.\n";
-	Underscore(length "Done.");
+	underscore(length "Done.");
 }
