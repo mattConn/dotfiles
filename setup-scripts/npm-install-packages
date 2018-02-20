@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+echo -e "\tLinking nodejs to /usr/bin as node:"
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+echo ""
+
+echo -e "\tInstalling node modules with elevated permissions to /usr/local/bin:"
+sudo npm install -g \
+gulp \
+http-server \
+html5-boilerplate \

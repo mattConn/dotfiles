@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+cp rc-files/.* ~/
+
+# check for successful copy
+echo -e "\n\tChecking if files were copied to home:"
+cd rc-files
+for f in .*
+	do file ~/$f
+	echo ""
+done

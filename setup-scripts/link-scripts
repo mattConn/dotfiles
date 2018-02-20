@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+WORKINGDIR=`pwd`
+SYMLINK="sudo ln -s"
+EXECDIR="/usr/local/bin"
+
+cd user-scripts;
+for f in *
+do
+echo -e "\tLinking $f to $EXECDIR:"
+$SYMLINK $WORKINGDIR/user-scripts/$f $EXECDIR/
+echo ""
+done

@@ -1,0 +1,35 @@
+#!/usr/bin/env perl
+
+# run all environment setup scripts (target os: ubuntu)
+
+use v5.10;
+
+# underscore name of current operation
+sub Underscore {
+	for(my $j = 0; $j < $_[0]; $j++)
+	{
+		print "=";
+	}
+	print "\n";
+}
+
+while(<setup-scripts/*>)
+{
+	my $msgPrefix = "Running script:";
+	my $uscoreLength = (length $msgPrefix) + (length $_) + 1;
+
+	# clearly name script running
+	Underscore($uscoreLength);
+	print "$msgPrefix $_\n";
+	Underscore($uscoreLength);
+	print "\n";
+	
+	# exec script
+	system("./$_");
+
+	# mark finished execution (successful or not, in case of no stdout)
+	print "\n";
+	Underscore(length "Done.");
+	print "Done.\n";
+	Underscore(length "Done.");
+}

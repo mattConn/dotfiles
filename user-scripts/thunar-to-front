@@ -1,2 +1,3 @@
+#!/usr/bin/env bash
 # opens thunar window, brings to front
 thunar; wmctrl -a "File Manager";

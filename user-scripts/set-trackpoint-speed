@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # thinkpad trackpoint speed set
 # The last value is the speed, from 0 to 1; the lower the value, the faster the speed.
 # (This script is meant to run on startup with cli arg)

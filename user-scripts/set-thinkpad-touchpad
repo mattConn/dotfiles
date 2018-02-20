@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Disable touchpad (via property ID)
 # (This script is meant to be run on startup)
 
