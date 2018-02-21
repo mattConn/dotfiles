@@ -4,24 +4,20 @@
 
 use v5.10;
 
-# underscore name of current operation
-sub underscore {
-	for(my $j = 0; $j < $_[0]; $j++)
-	{
-		print "=";
-	}
-	print "\n";
+# border to highlight name of current operation
+sub border {
+	print "=" x $_[0]."\n";
 }
 
 while(<setup-scripts/*>)
 {
 	my $msgPrefix = "Running script:";
-	my $uscoreLength = (length $msgPrefix) + (length $_) + 1;
+	my $borderLength = (length $msgPrefix) + (length $_) + 1;
 
 	# clearly name script running
-	underscore($uscoreLength);
+	border($borderLength);
 	print "$msgPrefix $_\n";
-	underscore($uscoreLength);
+	border($borderLength);
 	print "\n";
 	
 	# exec script
@@ -29,7 +25,7 @@ while(<setup-scripts/*>)
 
 	# mark finished execution (successful or not, in case of no stdout)
 	print "\n";
-	underscore(length "Done.");
+	border(length "Done.");
 	print "Done.\n";
-	underscore(length "Done.");
+	border(length "Done.");
 }
