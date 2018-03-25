@@ -10,3 +10,13 @@ cowsay \
 cmatrix \
 caskroom/cask/libreoffice \
 wget \
+caskroom/cask/thunderbird \
+caskroom/cask/iterm2 \
+caskroom/cask/xquartz \
+caskroom/cask/wine-stable \
+caskroom/cask/keepassx \
+caskroom/cask/insomniax \
+caskroom/cask/vlc \
+caskroom/cask/xaos \
+ranger \
+markdown \
