@@ -3,7 +3,7 @@
 # config global git username and email
 echo -e "\tSetting global git username and email:"
 git config --global user.name "Matthew Connelly"
-git config --global user.email mattconndev@gmail.com
+git config --global user.email matthew.b.connelly@gmail.com
 
 echo -e "\tConfirming global username and email have been set:"
 git config --global user.name
