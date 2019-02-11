@@ -7,7 +7,7 @@ EXECDIR="/usr/local/bin"
 cd user-scripts;
 for f in *
 do
-echo -e "\tLinking $f to $EXECDIR:"
+echo Linking $f to $EXECDIR:
 $SYMLINK $WORKINGDIR/user-scripts/$f $EXECDIR/
 echo ""
 done

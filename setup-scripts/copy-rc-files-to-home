@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cp rc-files/.* ~/
+cp -a rc-files/. ~/
 
 # check for successful copy
 echo -e "\n\tChecking if files were copied to home:"

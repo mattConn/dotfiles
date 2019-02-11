@@ -1,31 +1,8 @@
-#!/usr/bin/env perl
+#!/bin/bash
 
-# run all environment setup scripts (target os: ubuntu)
-
-use v5.10;
-
-# border to highlight name of current operation
-sub border {
-	print "=" x $_[0]."\n";
-}
-
-while(<setup-scripts/*>)
-{
-	my $msgPrefix = "Running script:";
-	my $borderLength = (length $msgPrefix) + (length $_) + 1;
-
-	# clearly name script running
-	border($borderLength);
-	print "$msgPrefix $_\n";
-	border($borderLength);
-	print "\n";
-	
-	# exec script
-	system("./$_");
-
-	# mark finished execution (successful or not, in case of no stdout)
-	print "\n";
-	border(length "Done.");
-	print "Done.\n";
-	border(length "Done.");
-}
+for script in setup-scripts/*
+do
+	echo -e "\t \e[34mEXECUTING \e[39m$script"
+	./$script
+	echo -e "\t \e[32mDONE \e[39m$script"
+done
